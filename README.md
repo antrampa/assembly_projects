@@ -10,3 +10,14 @@ ld -m elf_i386 -o helloworld helloworld.o
 
 ./helloworld
 
+
+
+
+# Simple bootable application
+
+- To build run 
+- 
+nasm -f bin -o helloworld.bin helloworld.asm
+
+
+
